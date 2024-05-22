@@ -1,0 +1,24 @@
+[2024-05-22T08:04:35.821+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: RestCountries.get_countries_info manual__2024-05-22T08:04:34.751787+00:00 [queued]>
+[2024-05-22T08:04:35.826+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: RestCountries.get_countries_info manual__2024-05-22T08:04:34.751787+00:00 [queued]>
+[2024-05-22T08:04:35.826+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-05-22T08:04:35.832+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): get_countries_info> on 2024-05-22 08:04:34.751787+00:00
+[2024-05-22T08:04:35.835+0000] {standard_task_runner.py:57} INFO - Started process 3458 to run task
+[2024-05-22T08:04:35.837+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'RestCountries', 'get_countries_info', 'manual__2024-05-22T08:04:34.751787+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/RestCountries.py', '--cfg-path', '/tmp/tmpt2io15c8']
+[2024-05-22T08:04:35.839+0000] {standard_task_runner.py:85} INFO - Job 25: Subtask get_countries_info
+[2024-05-22T08:04:35.867+0000] {task_command.py:416} INFO - Running <TaskInstance: RestCountries.get_countries_info manual__2024-05-22T08:04:34.751787+00:00 [running]> on host b8721ae4b73c
+[2024-05-22T08:04:35.903+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='RestCountries' AIRFLOW_CTX_TASK_ID='get_countries_info' AIRFLOW_CTX_EXECUTION_DATE='2024-05-22T08:04:34.751787+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-22T08:04:34.751787+00:00'
+[2024-05-22T08:04:41.883+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/RestCountries.py", line 25, in get_countries_info
+    print(data["name"]["official"], data["population"], data["area"])
+TypeError: list indices must be integers or slices, not str
+[2024-05-22T08:04:41.892+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=RestCountries, task_id=get_countries_info, execution_date=20240522T080434, start_date=20240522T080435, end_date=20240522T080441
+[2024-05-22T08:04:41.915+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 25 for task get_countries_info (list indices must be integers or slices, not str; 3458)
+[2024-05-22T08:04:41.923+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-05-22T08:04:41.936+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

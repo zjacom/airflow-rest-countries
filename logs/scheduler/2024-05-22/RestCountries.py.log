@@ -1,0 +1,960 @@
+[2024-05-22T08:02:29.208+0000] {processor.py:157} INFO - Started process (PID=27669) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:02:29.209+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:02:29.210+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:02:29.210+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:02:29.220+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:02:29.216+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 59, in <module>
+    records = get_countries_info()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 346, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 49, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 208, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2952, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'url'
+[2024-05-22T08:02:29.220+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:02:29.231+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.025 seconds
+[2024-05-22T08:02:59.599+0000] {processor.py:157} INFO - Started process (PID=27736) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:02:59.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:02:59.602+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:02:59.602+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:02:59.609+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:02:59.607+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 59, in <module>
+    records = get_countries_info()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 346, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 49, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 208, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2952, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'url'
+[2024-05-22T08:02:59.610+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:02:59.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.028 seconds
+[2024-05-22T08:03:04.671+0000] {processor.py:157} INFO - Started process (PID=27744) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:03:04.672+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:03:04.673+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:03:04.673+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:03:04.685+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:03:04.682+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 66, in <module>
+    records = get_countries_info()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 346, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 49, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 208, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2952, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'url'
+[2024-05-22T08:03:04.685+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:03:04.699+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.033 seconds
+[2024-05-22T08:03:17.466+0000] {processor.py:157} INFO - Started process (PID=27759) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:03:17.467+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:03:17.470+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:03:17.470+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:03:17.484+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:03:17.481+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 65, in <module>
+    records = get_countries_info()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 346, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 49, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 208, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2952, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'url'
+[2024-05-22T08:03:17.484+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:03:17.495+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.033 seconds
+[2024-05-22T08:03:47.948+0000] {processor.py:157} INFO - Started process (PID=27826) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:03:47.949+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:03:47.952+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:03:47.951+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:03:47.962+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:03:47.959+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 65, in <module>
+    records = get_countries_info()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 346, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 49, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 208, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2952, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'url'
+[2024-05-22T08:03:47.963+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:03:47.978+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.035 seconds
+[2024-05-22T08:04:18.266+0000] {processor.py:157} INFO - Started process (PID=27903) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:04:18.268+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:04:18.271+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:04:18.270+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:04:18.284+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:04:18.342+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:04:18.342+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-05-22T08:04:18.348+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:04:18.348+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-05-22T08:04:18.351+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:04:18.351+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-05-22T08:04:18.351+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:04:18.351+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:04:18.357+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:04:18.357+0000] {dag.py:2963} INFO - Creating ORM DAG for RestCountries
+[2024-05-22T08:04:18.363+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:04:18.363+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:04:18.372+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.111 seconds
+[2024-05-22T08:04:48.675+0000] {processor.py:157} INFO - Started process (PID=27970) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:04:48.677+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:04:48.680+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:04:48.680+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:04:48.693+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:04:48.713+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:04:48.713+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:04:48.727+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:04:48.727+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:04:48.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.069 seconds
+[2024-05-22T08:05:19.097+0000] {processor.py:157} INFO - Started process (PID=28037) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:05:19.099+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:05:19.101+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:05:19.101+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:05:19.109+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:05:19.123+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:05:19.123+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:05:19.138+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:05:19.138+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:05:19.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.054 seconds
+[2024-05-22T08:05:30.619+0000] {processor.py:157} INFO - Started process (PID=28089) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:05:30.621+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:05:30.624+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:05:30.624+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:05:30.639+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:05:30.657+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:05:30.657+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:05:30.672+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:05:30.671+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:05:30.682+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.068 seconds
+[2024-05-22T08:06:00.808+0000] {processor.py:157} INFO - Started process (PID=28156) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:06:00.810+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:06:00.813+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:06:00.813+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:06:00.825+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:06:00.845+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:06:00.844+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:06:00.860+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:06:00.860+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:06:00.871+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.067 seconds
+[2024-05-22T08:06:31.099+0000] {processor.py:157} INFO - Started process (PID=28223) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:06:31.100+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:06:31.103+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:06:31.103+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:06:31.113+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:06:31.129+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:06:31.129+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:06:31.144+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:06:31.144+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:06:31.154+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.060 seconds
+[2024-05-22T08:06:59.692+0000] {processor.py:157} INFO - Started process (PID=28282) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:06:59.694+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:06:59.697+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:06:59.697+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:06:59.712+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:06:59.728+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:06:59.727+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:06:59.743+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:06:59.743+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:06:59.754+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.068 seconds
+[2024-05-22T08:07:30.142+0000] {processor.py:157} INFO - Started process (PID=28348) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:07:30.143+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:07:30.145+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:07:30.144+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:07:30.151+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:07:30.162+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:07:30.162+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:07:30.175+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:07:30.174+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:07:30.184+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.045 seconds
+[2024-05-22T08:08:00.527+0000] {processor.py:157} INFO - Started process (PID=28415) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:08:00.529+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:08:00.532+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:08:00.532+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:08:00.542+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:08:00.557+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:08:00.557+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:08:00.571+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:08:00.571+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:08:00.581+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.059 seconds
+[2024-05-22T08:08:31.076+0000] {processor.py:157} INFO - Started process (PID=28488) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:08:31.078+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:08:31.081+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:08:31.081+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:08:31.091+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:08:31.107+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:08:31.106+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:08:31.120+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:08:31.120+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:08:31.130+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.060 seconds
+[2024-05-22T08:09:01.511+0000] {processor.py:157} INFO - Started process (PID=28555) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:09:01.512+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:09:01.515+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:09:01.514+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:09:01.523+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:09:01.539+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:09:01.539+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:09:01.555+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:09:01.554+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:09:01.568+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.062 seconds
+[2024-05-22T08:09:31.997+0000] {processor.py:157} INFO - Started process (PID=28622) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:09:31.999+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:09:32.002+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:09:32.001+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:09:32.011+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:09:32.028+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:09:32.028+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:09:32.043+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:09:32.043+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:09:32.054+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.063 seconds
+[2024-05-22T08:10:02.467+0000] {processor.py:157} INFO - Started process (PID=28689) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:10:02.468+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:10:02.470+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:10:02.470+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:10:02.478+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:10:02.495+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:10:02.495+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:10:02.511+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:10:02.510+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:10:02.523+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.059 seconds
+[2024-05-22T08:10:32.950+0000] {processor.py:157} INFO - Started process (PID=28756) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:10:32.952+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:10:32.956+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:10:32.955+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:10:32.967+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:10:32.984+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:10:32.984+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:10:32.998+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:10:32.998+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:10:33.009+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.064 seconds
+[2024-05-22T08:11:03.272+0000] {processor.py:157} INFO - Started process (PID=28823) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:11:03.273+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:11:03.275+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:11:03.275+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:11:03.284+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:11:03.299+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:11:03.299+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:11:03.316+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:11:03.316+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:11:03.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.060 seconds
+[2024-05-22T08:11:33.696+0000] {processor.py:157} INFO - Started process (PID=28890) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:11:33.698+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:11:33.702+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:11:33.701+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:11:33.712+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:11:33.727+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:11:33.727+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:11:33.742+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:11:33.742+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:11:33.752+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.062 seconds
+[2024-05-22T08:11:48.247+0000] {processor.py:157} INFO - Started process (PID=28897) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:11:48.249+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:11:48.252+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:11:48.252+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:11:48.268+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:11:48.286+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:11:48.286+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:11:48.300+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:11:48.300+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:11:48.310+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.068 seconds
+[2024-05-22T08:12:18.692+0000] {processor.py:157} INFO - Started process (PID=28964) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:12:18.694+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:12:18.697+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:12:18.696+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:12:18.710+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:12:18.731+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:12:18.730+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:12:18.745+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:12:18.745+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:12:18.753+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.066 seconds
+[2024-05-22T08:12:49.267+0000] {processor.py:157} INFO - Started process (PID=29031) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:12:49.268+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:12:49.271+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:12:49.271+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:12:49.284+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:12:49.305+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:12:49.305+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:12:49.321+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:12:49.321+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:12:49.329+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.068 seconds
+[2024-05-22T08:13:19.624+0000] {processor.py:157} INFO - Started process (PID=29098) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:13:19.626+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:13:19.629+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:13:19.629+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:13:19.640+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:13:19.663+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:13:19.663+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:13:19.680+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:13:19.680+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:13:19.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.070 seconds
+[2024-05-22T08:13:49.940+0000] {processor.py:157} INFO - Started process (PID=29165) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:13:49.941+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:13:49.943+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:13:49.942+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:13:49.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:13:49.969+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:13:49.969+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:13:49.981+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:13:49.981+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:13:49.992+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.054 seconds
+[2024-05-22T08:14:11.964+0000] {processor.py:157} INFO - Started process (PID=29228) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:14:11.965+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:14:11.968+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:14:11.968+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:14:11.983+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:14:12.001+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:14:12.001+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:14:12.015+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:14:12.015+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:14:12.025+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.066 seconds
+[2024-05-22T08:14:15.037+0000] {processor.py:157} INFO - Started process (PID=29229) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:14:15.039+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:14:15.042+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:14:15.042+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:14:15.055+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:14:15.074+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:14:15.074+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:14:15.089+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:14:15.089+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:14:15.101+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.069 seconds
+[2024-05-22T08:14:45.359+0000] {processor.py:157} INFO - Started process (PID=29296) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:14:45.359+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:14:45.361+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:14:45.361+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:14:45.367+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:14:45.378+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:14:45.378+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:14:45.389+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:14:45.389+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:14:45.397+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.040 seconds
+[2024-05-22T08:15:15.655+0000] {processor.py:157} INFO - Started process (PID=29363) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:15:15.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:15:15.658+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:15:15.658+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:15:15.666+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:15:15.682+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:15:15.682+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:15:15.700+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:15:15.700+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:15:15.710+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.058 seconds
+[2024-05-22T08:15:45.990+0000] {processor.py:157} INFO - Started process (PID=29430) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:15:45.990+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:15:45.992+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:15:45.992+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:15:45.997+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:15:46.011+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:15:46.011+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:15:46.024+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:15:46.024+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:15:46.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.048 seconds
+[2024-05-22T08:16:16.413+0000] {processor.py:157} INFO - Started process (PID=29497) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:16:16.414+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:16:16.418+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:16:16.418+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:16:16.430+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:16:16.453+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:16:16.453+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:16:16.467+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:16:16.466+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:16:16.477+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.069 seconds
+[2024-05-22T08:16:46.763+0000] {processor.py:157} INFO - Started process (PID=29563) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:16:46.764+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:16:46.766+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:16:46.765+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:16:46.775+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:16:46.789+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:16:46.788+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:16:46.806+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:16:46.806+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:16:46.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.061 seconds
+[2024-05-22T08:17:17.105+0000] {processor.py:157} INFO - Started process (PID=29630) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:17:17.106+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:17:17.108+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:17:17.108+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:17:17.116+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:17:17.131+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:17:17.131+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:17:17.145+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:17:17.145+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:17:17.154+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.054 seconds
+[2024-05-22T08:17:47.472+0000] {processor.py:157} INFO - Started process (PID=29697) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:17:47.473+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:17:47.475+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:17:47.475+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:17:47.484+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:17:47.501+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:17:47.500+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:17:47.516+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:17:47.516+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:17:47.527+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.058 seconds
+[2024-05-22T08:18:17.905+0000] {processor.py:157} INFO - Started process (PID=29764) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:18:17.906+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:18:17.908+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:18:17.908+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:18:17.917+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:18:17.930+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:18:17.930+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:18:17.945+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:18:17.945+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:18:17.954+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.054 seconds
+[2024-05-22T08:18:48.271+0000] {processor.py:157} INFO - Started process (PID=29831) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:18:48.272+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:18:48.275+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:18:48.274+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:18:48.284+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:18:48.302+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:18:48.302+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:18:48.317+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:18:48.317+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:18:48.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.062 seconds
+[2024-05-22T08:19:18.777+0000] {processor.py:157} INFO - Started process (PID=29898) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:19:18.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:19:18.781+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:19:18.781+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:19:18.792+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:19:18.812+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:19:18.811+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:19:18.828+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:19:18.828+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:19:18.839+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.067 seconds
+[2024-05-22T08:19:49.217+0000] {processor.py:157} INFO - Started process (PID=29965) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:19:49.219+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:19:49.221+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:19:49.221+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:19:49.231+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:19:49.248+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:19:49.247+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:19:49.263+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:19:49.263+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:19:49.274+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.063 seconds
+[2024-05-22T08:20:19.656+0000] {processor.py:157} INFO - Started process (PID=30032) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:20:19.657+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:20:19.659+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:20:19.659+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:20:19.667+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:20:19.682+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:20:19.682+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:20:19.696+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:20:19.696+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:20:19.707+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.055 seconds
+[2024-05-22T08:20:37.032+0000] {processor.py:157} INFO - Started process (PID=30073) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:20:37.036+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:20:37.040+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:20:37.040+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:20:37.055+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:20:37.069+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:20:37.069+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:20:37.083+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:20:37.082+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:20:37.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.068 seconds
+[2024-05-22T08:21:07.302+0000] {processor.py:157} INFO - Started process (PID=30140) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:21:07.303+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:21:07.305+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:21:07.305+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:21:07.316+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:21:07.334+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:21:07.333+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:21:07.349+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:21:07.349+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:21:07.360+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.061 seconds
+[2024-05-22T08:21:34.465+0000] {processor.py:157} INFO - Started process (PID=30200) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:21:34.467+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:21:34.469+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:21:34.469+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:21:34.484+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:21:34.503+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:21:34.503+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:21:34.516+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:21:34.516+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:21:34.526+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.066 seconds
+[2024-05-22T08:22:04.725+0000] {processor.py:157} INFO - Started process (PID=30267) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:22:04.726+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:22:04.729+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:22:04.729+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:22:04.740+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:22:04.762+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:22:04.762+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:22:04.777+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:22:04.777+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:22:04.786+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.066 seconds
+[2024-05-22T08:22:35.332+0000] {processor.py:157} INFO - Started process (PID=30334) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:22:35.333+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:22:35.337+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:22:35.336+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:22:35.348+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:22:35.363+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:22:35.363+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:22:35.379+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:22:35.379+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:22:35.390+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.062 seconds
+[2024-05-22T08:23:05.822+0000] {processor.py:157} INFO - Started process (PID=30400) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:23:05.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:23:05.827+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:23:05.826+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:23:05.839+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:23:05.856+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:23:05.855+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:23:05.870+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:23:05.870+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:23:05.880+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.061 seconds
+[2024-05-22T08:23:36.399+0000] {processor.py:157} INFO - Started process (PID=30467) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:23:36.400+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:23:36.402+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:23:36.402+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:23:36.410+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:23:36.426+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:23:36.426+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:23:36.444+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:23:36.444+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:23:36.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.060 seconds
+[2024-05-22T08:24:03.312+0000] {processor.py:157} INFO - Started process (PID=30517) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:24:03.314+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:24:03.318+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:24:03.317+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:24:03.323+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:24:03.322+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 46
+    sql = f"INSERT INTO {schema}.{table} VALUES ("{record[0]}", {record[1]}, {record[2]});"
+                                                  ^
+SyntaxError: invalid syntax
+[2024-05-22T08:24:03.323+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:24:03.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.033 seconds
+[2024-05-22T08:24:11.909+0000] {processor.py:157} INFO - Started process (PID=30561) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:24:11.910+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:24:11.911+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:24:11.911+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:24:11.914+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:24:11.914+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 46
+    sql = f"INSERT INTO {schema}.{table} VALUES (""{record[0]}", {record[1]}, {record[2]});"
+                                                                                         ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:24:11.915+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:24:11.926+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.020 seconds
+[2024-05-22T08:24:42.062+0000] {processor.py:157} INFO - Started process (PID=30621) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:24:42.063+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:24:42.064+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:24:42.064+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:24:42.067+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:24:42.067+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 46
+    sql = f"INSERT INTO {schema}.{table} VALUES (""{record[0]}", {record[1]}, {record[2]});"
+                                                                                         ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:24:42.067+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:24:42.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.018 seconds
+[2024-05-22T08:25:12.555+0000] {processor.py:157} INFO - Started process (PID=30688) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:25:12.556+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:25:12.558+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:25:12.557+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:25:12.561+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:25:12.560+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 46
+    sql = f"INSERT INTO {schema}.{table} VALUES (""{record[0]}", {record[1]}, {record[2]});"
+                                                                                         ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:25:12.561+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:25:12.573+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.020 seconds
+[2024-05-22T08:25:43.234+0000] {processor.py:157} INFO - Started process (PID=30755) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:25:43.235+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:25:43.237+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:25:43.236+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:25:43.243+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:25:43.242+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 46
+    sql = f"INSERT INTO {schema}.{table} VALUES (""{record[0]}", {record[1]}, {record[2]});"
+                                                                                         ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:25:43.244+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:25:43.266+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.037 seconds
+[2024-05-22T08:26:13.748+0000] {processor.py:157} INFO - Started process (PID=30822) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:26:13.750+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:26:13.751+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:26:13.751+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:26:13.757+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:26:13.756+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 46
+    sql = f"INSERT INTO {schema}.{table} VALUES (""{record[0]}", {record[1]}, {record[2]});"
+                                                                                         ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:26:13.758+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:26:13.775+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.032 seconds
+[2024-05-22T08:26:44.307+0000] {processor.py:157} INFO - Started process (PID=30889) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:26:44.308+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:26:44.310+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:26:44.309+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:26:44.316+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:26:44.315+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 46
+    sql = f"INSERT INTO {schema}.{table} VALUES (""{record[0]}", {record[1]}, {record[2]});"
+                                                                                         ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:26:44.316+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:26:44.332+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.030 seconds
+[2024-05-22T08:27:07.831+0000] {processor.py:157} INFO - Started process (PID=30925) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:27:07.832+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:27:07.833+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:27:07.833+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:27:07.846+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:27:07.911+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:27:07.911+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:27:07.923+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:27:07.923+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:27:07.934+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.107 seconds
+[2024-05-22T08:27:38.362+0000] {processor.py:157} INFO - Started process (PID=30992) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:27:38.364+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:27:38.365+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:27:38.364+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:27:38.374+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:27:38.393+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:27:38.393+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:27:38.409+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:27:38.409+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:27:38.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.062 seconds
+[2024-05-22T08:28:08.890+0000] {processor.py:157} INFO - Started process (PID=31059) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:28:08.891+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:28:08.892+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:28:08.892+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:28:08.900+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:28:08.915+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:28:08.914+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:28:08.928+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:28:08.928+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:28:08.938+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.051 seconds
+[2024-05-22T08:28:39.260+0000] {processor.py:157} INFO - Started process (PID=31126) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:28:39.261+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:28:39.262+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:28:39.262+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:28:39.271+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:28:39.286+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:28:39.286+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:28:39.299+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:28:39.299+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:28:39.308+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.052 seconds
+[2024-05-22T08:29:09.816+0000] {processor.py:157} INFO - Started process (PID=31193) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:29:09.817+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:29:09.819+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:29:09.818+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:29:09.831+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:29:09.847+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:29:09.846+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:29:09.860+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:29:09.860+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:29:09.870+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.058 seconds
+[2024-05-22T08:29:40.352+0000] {processor.py:157} INFO - Started process (PID=31260) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:29:40.354+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:29:40.355+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:29:40.355+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:29:40.369+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:29:40.385+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:29:40.385+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:29:40.398+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:29:40.398+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:29:40.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.061 seconds
+[2024-05-22T08:30:11.030+0000] {processor.py:157} INFO - Started process (PID=31327) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:30:11.032+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:30:11.034+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:30:11.033+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:30:11.046+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:30:11.065+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:30:11.065+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:30:11.079+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:30:11.079+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:30:11.088+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.064 seconds
+[2024-05-22T08:30:41.705+0000] {processor.py:157} INFO - Started process (PID=31394) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:30:41.706+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:30:41.708+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:30:41.707+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:30:41.717+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:30:41.736+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:30:41.736+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:30:41.753+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:30:41.753+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:30:41.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.062 seconds
+[2024-05-22T08:31:12.146+0000] {processor.py:157} INFO - Started process (PID=31461) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:31:12.148+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:31:12.149+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:31:12.149+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:31:12.158+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:31:12.176+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:31:12.176+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:31:12.194+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:31:12.194+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:31:12.205+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.066 seconds
+[2024-05-22T08:31:42.771+0000] {processor.py:157} INFO - Started process (PID=31528) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:31:42.773+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:31:42.774+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:31:42.774+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:31:42.787+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:31:42.804+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:31:42.804+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:31:42.819+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:31:42.819+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:31:42.829+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.064 seconds
+[2024-05-22T08:32:13.283+0000] {processor.py:157} INFO - Started process (PID=31595) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:32:13.285+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:32:13.286+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:32:13.285+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:32:13.296+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:32:13.314+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:32:13.313+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:32:13.329+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:32:13.329+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:32:13.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.063 seconds
+[2024-05-22T08:32:44.038+0000] {processor.py:157} INFO - Started process (PID=31662) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:32:44.039+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:32:44.040+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:32:44.040+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:32:44.049+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:32:44.067+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:32:44.067+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:32:44.084+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:32:44.084+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:32:44.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.061 seconds
+[2024-05-22T08:33:13.449+0000] {processor.py:157} INFO - Started process (PID=31724) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:33:13.451+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:33:13.451+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:33:13.451+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:33:13.467+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:33:13.485+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:33:13.484+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:33:13.499+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:33:13.499+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:33:13.508+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.064 seconds
+[2024-05-22T08:33:43.760+0000] {processor.py:157} INFO - Started process (PID=31791) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:33:43.762+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:33:43.763+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:33:43.763+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:33:43.774+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:33:43.789+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:33:43.788+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:33:43.802+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:33:43.801+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:33:43.811+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.055 seconds
+[2024-05-22T08:34:14.076+0000] {processor.py:157} INFO - Started process (PID=31858) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:34:14.078+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:34:14.079+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:34:14.079+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:34:14.092+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:34:14.108+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:34:14.108+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:34:14.123+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:34:14.123+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:34:14.132+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.062 seconds
+[2024-05-22T08:34:44.504+0000] {processor.py:157} INFO - Started process (PID=31925) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:34:44.505+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:34:44.506+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:34:44.506+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:34:44.516+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:34:44.531+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:34:44.531+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:34:44.544+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:34:44.544+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:34:44.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.055 seconds
+[2024-05-22T08:35:14.992+0000] {processor.py:157} INFO - Started process (PID=31992) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:35:14.994+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:35:14.995+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:35:14.994+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:35:15.004+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:35:15.020+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:35:15.020+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:35:15.035+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:35:15.035+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:35:15.044+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.057 seconds
+[2024-05-22T08:35:45.612+0000] {processor.py:157} INFO - Started process (PID=32059) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:35:45.612+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:35:45.613+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:35:45.613+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:35:45.619+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:35:45.631+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:35:45.631+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:35:45.645+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:35:45.645+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:35:45.656+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.046 seconds
+[2024-05-22T08:36:16.057+0000] {processor.py:157} INFO - Started process (PID=32126) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:36:16.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:36:16.058+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:36:16.058+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:36:16.064+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:36:16.076+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:36:16.076+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:36:16.088+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:36:16.087+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:36:16.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.042 seconds
+[2024-05-22T08:36:30.961+0000] {processor.py:157} INFO - Started process (PID=32177) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:36:30.962+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:36:30.963+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:36:30.963+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:36:30.970+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:36:30.968+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 48
+    sql = f"INSERT INTO {schema}.{table} VALUES ('{record[0].replace("'",'')}', {record[1]}, {record[2]});"
+                                                                                                        ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:36:30.970+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:36:30.994+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.037 seconds
+[2024-05-22T08:37:01.376+0000] {processor.py:157} INFO - Started process (PID=32244) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:37:01.378+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:37:01.379+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:37:01.378+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:37:01.384+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:37:01.383+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 48
+    sql = f"INSERT INTO {schema}.{table} VALUES ('{record[0].replace("'",'')}', {record[1]}, {record[2]});"
+                                                                                                        ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:37:01.387+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:37:01.405+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.033 seconds
+[2024-05-22T08:37:05.454+0000] {processor.py:157} INFO - Started process (PID=32252) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:37:05.455+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:37:05.456+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:37:05.456+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:37:05.460+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:37:05.459+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 48
+    sql = f"INSERT INTO {schema}.{table} VALUES ('{record[0].replace("'", '')}', {record[1]}, {record[2]});"
+                                                                                                         ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:37:05.460+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:37:05.474+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.023 seconds
+[2024-05-22T08:37:35.900+0000] {processor.py:157} INFO - Started process (PID=32319) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:37:35.901+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:37:35.902+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:37:35.902+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:37:35.908+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:37:35.907+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 48
+    sql = f"INSERT INTO {schema}.{table} VALUES ('{record[0].replace("'", '')}', {record[1]}, {record[2]});"
+                                                                                                         ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:37:35.908+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:37:35.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.032 seconds
+[2024-05-22T08:38:06.488+0000] {processor.py:157} INFO - Started process (PID=32386) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:38:06.489+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:38:06.490+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:38:06.490+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:38:06.497+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:38:06.495+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 48
+    sql = f"INSERT INTO {schema}.{table} VALUES ('{record[0].replace("'", '')}', {record[1]}, {record[2]});"
+                                                                                                         ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:38:06.497+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:38:06.519+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.035 seconds
+[2024-05-22T08:38:22.780+0000] {processor.py:157} INFO - Started process (PID=32413) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:38:22.782+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:38:22.783+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:38:22.783+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:38:22.788+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:38:22.787+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/RestCountries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/RestCountries.py", line 48
+    sql = f"INSERT INTO {schema}.{table} VALUES ('{record[0].replace("'", "''")}', {record[1]}, {record[2]});"
+                                                                                                           ^
+SyntaxError: unmatched ')'
+[2024-05-22T08:38:22.789+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:38:22.806+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.029 seconds
+[2024-05-22T08:38:51.107+0000] {processor.py:157} INFO - Started process (PID=32469) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:38:51.109+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:38:51.110+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:38:51.109+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:38:51.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:38:51.182+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:38:51.182+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:38:51.193+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:38:51.193+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:38:51.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.101 seconds
+[2024-05-22T08:39:21.853+0000] {processor.py:157} INFO - Started process (PID=32536) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:39:21.855+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:39:21.856+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:39:21.856+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:39:21.870+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:39:21.891+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:39:21.891+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:39:21.905+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:39:21.905+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:39:21.914+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.067 seconds
+[2024-05-22T08:39:52.431+0000] {processor.py:157} INFO - Started process (PID=32603) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:39:52.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:39:52.433+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:39:52.433+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:39:52.443+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:39:52.459+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:39:52.459+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:39:52.473+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:39:52.473+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:39:52.484+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.057 seconds
+[2024-05-22T08:40:23.243+0000] {processor.py:157} INFO - Started process (PID=32670) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:40:23.244+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:40:23.245+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:40:23.245+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:40:23.253+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:40:23.269+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:40:23.269+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:40:23.285+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:40:23.284+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:40:23.295+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.055 seconds
+[2024-05-22T08:40:48.287+0000] {processor.py:157} INFO - Started process (PID=32725) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:40:48.288+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:40:48.289+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:40:48.289+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:40:48.306+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:40:48.326+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:40:48.325+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:40:48.340+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:40:48.340+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:40:48.349+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.067 seconds
+[2024-05-22T08:41:18.821+0000] {processor.py:157} INFO - Started process (PID=32792) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:41:18.823+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:41:18.824+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:41:18.824+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:41:18.837+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:41:18.860+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:41:18.860+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:41:18.876+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:41:18.876+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:41:18.886+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.070 seconds
+[2024-05-22T08:41:49.416+0000] {processor.py:157} INFO - Started process (PID=32859) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:41:49.418+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:41:49.420+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:41:49.419+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:41:49.433+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:41:49.459+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:41:49.459+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:41:49.474+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:41:49.474+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:41:49.486+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.075 seconds
+[2024-05-22T08:42:20.013+0000] {processor.py:157} INFO - Started process (PID=32926) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:42:20.014+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:42:20.015+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:42:20.015+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:42:20.024+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:42:20.039+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:42:20.039+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:42:20.055+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:42:20.054+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:42:20.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.138 seconds
+[2024-05-22T08:42:50.653+0000] {processor.py:157} INFO - Started process (PID=32993) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:42:50.655+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:42:50.656+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:42:50.656+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:42:50.669+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:42:50.694+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:42:50.694+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:42:50.710+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:42:50.710+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:42:50.720+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.073 seconds
+[2024-05-22T08:43:21.550+0000] {processor.py:157} INFO - Started process (PID=33060) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:43:21.552+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:43:21.553+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:43:21.552+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:43:21.567+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:43:21.591+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:43:21.591+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:43:21.609+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:43:21.609+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:43:21.618+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.073 seconds
+[2024-05-22T08:43:52.510+0000] {processor.py:157} INFO - Started process (PID=33127) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:43:52.512+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:43:52.513+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:43:52.513+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:43:52.525+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:43:52.544+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:43:52.544+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:43:52.561+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:43:52.561+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:43:52.573+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.068 seconds
+[2024-05-22T08:44:23.470+0000] {processor.py:157} INFO - Started process (PID=33194) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:44:23.471+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:44:23.472+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:44:23.471+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:44:23.478+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:44:23.492+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:44:23.492+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:44:23.599+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:44:23.599+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:44:23.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.142 seconds
+[2024-05-22T08:44:53.842+0000] {processor.py:157} INFO - Started process (PID=33261) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:44:53.842+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:44:53.843+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:44:53.843+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:44:53.849+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:44:53.954+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:44:53.954+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:44:53.964+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:44:53.964+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:44:53.973+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.134 seconds
+[2024-05-22T08:45:24.259+0000] {processor.py:157} INFO - Started process (PID=33328) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:45:24.260+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:45:24.261+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:45:24.261+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:45:24.269+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:45:24.376+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:45:24.375+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:45:24.388+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:45:24.387+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:45:24.399+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.143 seconds
+[2024-05-22T08:45:54.951+0000] {processor.py:157} INFO - Started process (PID=33395) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:45:54.953+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:45:54.954+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:45:54.954+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:45:54.968+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:45:54.986+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:45:54.986+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:45:55.001+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:45:55.001+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:45:55.012+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.067 seconds
+[2024-05-22T08:46:25.525+0000] {processor.py:157} INFO - Started process (PID=33462) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:46:25.526+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:46:25.527+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:46:25.527+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:46:25.541+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:46:25.564+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:46:25.564+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:46:25.581+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:46:25.580+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:46:25.591+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.071 seconds
+[2024-05-22T08:46:56.073+0000] {processor.py:157} INFO - Started process (PID=33529) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:46:56.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:46:56.076+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:46:56.075+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:46:56.089+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:46:56.116+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:46:56.115+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:46:56.133+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:46:56.133+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:46:56.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.076 seconds
+[2024-05-22T08:47:26.542+0000] {processor.py:157} INFO - Started process (PID=33596) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:47:26.543+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:47:26.544+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:47:26.544+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:47:26.557+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:47:26.580+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:47:26.579+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:47:26.598+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:47:26.598+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:47:26.607+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.070 seconds
+[2024-05-22T08:47:56.975+0000] {processor.py:157} INFO - Started process (PID=33663) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:47:56.977+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:47:56.978+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:47:56.978+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:47:56.990+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:47:57.015+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:47:57.015+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:47:57.033+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:47:57.033+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:47:57.046+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.076 seconds
+[2024-05-22T08:48:27.609+0000] {processor.py:157} INFO - Started process (PID=33730) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:48:27.611+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:48:27.612+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:48:27.612+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:48:27.623+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:48:27.643+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:48:27.643+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:48:27.660+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:48:27.660+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:48:27.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.066 seconds
+[2024-05-22T08:48:58.158+0000] {processor.py:157} INFO - Started process (PID=33797) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:48:58.160+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:48:58.161+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:48:58.160+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:48:58.172+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:48:58.193+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:48:58.193+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:48:58.204+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:48:58.204+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:48:58.212+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.059 seconds
+[2024-05-22T08:49:28.606+0000] {processor.py:157} INFO - Started process (PID=33864) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:49:28.608+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:49:28.609+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:49:28.609+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:49:28.623+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:49:28.648+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:49:28.648+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:49:28.663+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:49:28.662+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:49:28.673+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.073 seconds
+[2024-05-22T08:49:59.036+0000] {processor.py:157} INFO - Started process (PID=33931) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:49:59.037+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:49:59.038+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:49:59.038+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:49:59.050+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:49:59.076+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:49:59.075+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:49:59.092+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:49:59.092+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:49:59.101+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.069 seconds
+[2024-05-22T08:50:29.390+0000] {processor.py:157} INFO - Started process (PID=33998) to work on /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:50:29.392+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/RestCountries.py for tasks to queue
+[2024-05-22T08:50:29.393+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:50:29.393+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:50:29.405+0000] {processor.py:839} INFO - DAG(s) dict_keys(['RestCountries']) retrieved from /opt/airflow/dags/RestCountries.py
+[2024-05-22T08:50:29.429+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:50:29.428+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:50:29.445+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:50:29.445+0000] {dag.py:3722} INFO - Setting next_dagrun for RestCountries to 2024-05-25T06:30:00+00:00, run_after=2024-06-01T06:30:00+00:00
+[2024-05-22T08:50:29.454+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/RestCountries.py took 0.068 seconds

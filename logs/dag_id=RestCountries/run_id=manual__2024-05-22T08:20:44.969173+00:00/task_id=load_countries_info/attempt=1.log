@@ -1,0 +1,29 @@
+[2024-05-22T08:21:06.194+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: RestCountries.load_countries_info manual__2024-05-22T08:20:44.969173+00:00 [queued]>
+[2024-05-22T08:21:06.199+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: RestCountries.load_countries_info manual__2024-05-22T08:20:44.969173+00:00 [queued]>
+[2024-05-22T08:21:06.199+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-05-22T08:21:06.205+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load_countries_info> on 2024-05-22 08:20:44.969173+00:00
+[2024-05-22T08:21:06.208+0000] {standard_task_runner.py:57} INFO - Started process 3730 to run task
+[2024-05-22T08:21:06.210+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'RestCountries', 'load_countries_info', 'manual__2024-05-22T08:20:44.969173+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/RestCountries.py', '--cfg-path', '/tmp/tmp8vlgxsl3']
+[2024-05-22T08:21:06.212+0000] {standard_task_runner.py:85} INFO - Job 31: Subtask load_countries_info
+[2024-05-22T08:21:06.240+0000] {task_command.py:416} INFO - Running <TaskInstance: RestCountries.load_countries_info manual__2024-05-22T08:20:44.969173+00:00 [running]> on host b8721ae4b73c
+[2024-05-22T08:21:06.285+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='RestCountries' AIRFLOW_CTX_TASK_ID='load_countries_info' AIRFLOW_CTX_EXECUTION_DATE='2024-05-22T08:20:44.969173+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-22T08:20:44.969173+00:00'
+[2024-05-22T08:21:06.286+0000] {RestCountries.py:33} INFO - load countries info
+[2024-05-22T08:21:06.290+0000] {base.py:73} INFO - Using connection ID 'redshift_dev_db' for task execution.
+[2024-05-22T08:21:12.590+0000] {logging_mixin.py:154} INFO - value too long for type character varying(32)
+[2024-05-22T08:21:12.596+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/RestCountries.py", line 47, in load_countries_info
+    cur.execute(sql)
+psycopg2.errors.StringDataRightTruncation: value too long for type character varying(32)
+
+[2024-05-22T08:21:12.601+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=RestCountries, task_id=load_countries_info, execution_date=20240522T082044, start_date=20240522T082106, end_date=20240522T082112
+[2024-05-22T08:21:12.608+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 31 for task load_countries_info (value too long for type character varying(32)
+; 3730)
+[2024-05-22T08:21:12.622+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-05-22T08:21:12.630+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
