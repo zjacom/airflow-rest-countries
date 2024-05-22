@@ -4159,3 +4159,52 @@ ImportError: cannot import name 'PostgresHook' from 'airflow.providers' (unknown
 [2024-05-22T08:50:45.470+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:50:45.470+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2024-05-22T08:50:45.483+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:50:45.483+0000] {dag.py:3722} INFO - Setting next_dagrun for name_gender_v4 to 2024-05-22T02:00:00+00:00, run_after=2024-05-23T02:00:00+00:00
 [2024-05-22T08:50:45.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py took 0.065 seconds
+[2024-05-22T08:51:15.881+0000] {processor.py:157} INFO - Started process (PID=34127) to work on /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:51:15.883+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py for tasks to queue
+[2024-05-22T08:51:15.884+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:15.884+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:51:15.912+0000] {processor.py:839} INFO - DAG(s) dict_keys(['name_gender_v4']) retrieved from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:51:15.923+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:15.922+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:51:15.935+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:15.935+0000] {dag.py:3722} INFO - Setting next_dagrun for name_gender_v4 to 2024-05-22T02:00:00+00:00, run_after=2024-05-23T02:00:00+00:00
+[2024-05-22T08:51:15.945+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py took 0.068 seconds
+[2024-05-22T08:51:46.414+0000] {processor.py:157} INFO - Started process (PID=34194) to work on /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:51:46.416+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py for tasks to queue
+[2024-05-22T08:51:46.416+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:46.416+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:51:46.441+0000] {processor.py:839} INFO - DAG(s) dict_keys(['name_gender_v4']) retrieved from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:51:46.456+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:46.456+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:51:46.470+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:46.470+0000] {dag.py:3722} INFO - Setting next_dagrun for name_gender_v4 to 2024-05-22T02:00:00+00:00, run_after=2024-05-23T02:00:00+00:00
+[2024-05-22T08:51:46.479+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py took 0.068 seconds
+[2024-05-22T08:52:16.931+0000] {processor.py:157} INFO - Started process (PID=34261) to work on /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:52:16.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py for tasks to queue
+[2024-05-22T08:52:16.932+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:16.932+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:52:16.949+0000] {processor.py:839} INFO - DAG(s) dict_keys(['name_gender_v4']) retrieved from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:52:16.960+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:16.960+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:52:16.978+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:16.977+0000] {dag.py:3722} INFO - Setting next_dagrun for name_gender_v4 to 2024-05-22T02:00:00+00:00, run_after=2024-05-23T02:00:00+00:00
+[2024-05-22T08:52:16.992+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py took 0.066 seconds
+[2024-05-22T08:52:47.368+0000] {processor.py:157} INFO - Started process (PID=34326) to work on /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:52:47.370+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py for tasks to queue
+[2024-05-22T08:52:47.371+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:47.370+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:52:47.396+0000] {processor.py:839} INFO - DAG(s) dict_keys(['name_gender_v4']) retrieved from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:52:47.408+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:47.408+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:52:47.422+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:47.422+0000] {dag.py:3722} INFO - Setting next_dagrun for name_gender_v4 to 2024-05-22T02:00:00+00:00, run_after=2024-05-23T02:00:00+00:00
+[2024-05-22T08:52:47.432+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py took 0.068 seconds
+[2024-05-22T08:53:17.797+0000] {processor.py:157} INFO - Started process (PID=34390) to work on /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:53:17.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py for tasks to queue
+[2024-05-22T08:53:17.799+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:53:17.798+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:53:17.819+0000] {processor.py:839} INFO - DAG(s) dict_keys(['name_gender_v4']) retrieved from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:53:17.833+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:53:17.833+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:53:17.848+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:53:17.847+0000] {dag.py:3722} INFO - Setting next_dagrun for name_gender_v4 to 2024-05-22T02:00:00+00:00, run_after=2024-05-23T02:00:00+00:00
+[2024-05-22T08:53:17.856+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py took 0.062 seconds
+[2024-05-22T08:53:47.922+0000] {processor.py:157} INFO - Started process (PID=34454) to work on /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:53:47.923+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py for tasks to queue
+[2024-05-22T08:53:47.924+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:53:47.924+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:53:47.952+0000] {processor.py:839} INFO - DAG(s) dict_keys(['name_gender_v4']) retrieved from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:53:47.965+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:53:47.965+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:53:47.977+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:53:47.977+0000] {dag.py:3722} INFO - Setting next_dagrun for name_gender_v4 to 2024-05-22T02:00:00+00:00, run_after=2024-05-23T02:00:00+00:00
+[2024-05-22T08:53:47.985+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py took 0.069 seconds
+[2024-05-22T08:54:18.150+0000] {processor.py:157} INFO - Started process (PID=34518) to work on /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:54:18.151+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py for tasks to queue
+[2024-05-22T08:54:18.152+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:54:18.152+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:54:18.180+0000] {processor.py:839} INFO - DAG(s) dict_keys(['name_gender_v4']) retrieved from /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py
+[2024-05-22T08:54:18.190+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:54:18.190+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:54:18.202+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:54:18.202+0000] {dag.py:3722} INFO - Setting next_dagrun for name_gender_v4 to 2024-05-22T02:00:00+00:00, run_after=2024-05-23T02:00:00+00:00
+[2024-05-22T08:54:18.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/NameGenderCSVtoRedshift_v4.py took 0.066 seconds

@@ -2459,3 +2459,52 @@
 [2024-05-22T08:50:27.407+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:50:27.406+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2024-05-22T08:50:27.418+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:50:27.418+0000] {dag.py:3722} INFO - Setting next_dagrun for UpdateSymbol_v2 to 2024-05-21T10:00:00+00:00, run_after=2024-05-22T10:00:00+00:00
 [2024-05-22T08:50:27.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/UpdateSymbol_v2.py took 0.244 seconds
+[2024-05-22T08:50:57.707+0000] {processor.py:157} INFO - Started process (PID=34063) to work on /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:50:57.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/UpdateSymbol_v2.py for tasks to queue
+[2024-05-22T08:50:57.710+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:50:57.709+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:50:57.929+0000] {processor.py:839} INFO - DAG(s) dict_keys(['UpdateSymbol_v2']) retrieved from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:50:57.939+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:50:57.939+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:50:57.951+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:50:57.951+0000] {dag.py:3722} INFO - Setting next_dagrun for UpdateSymbol_v2 to 2024-05-21T10:00:00+00:00, run_after=2024-05-22T10:00:00+00:00
+[2024-05-22T08:50:57.960+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/UpdateSymbol_v2.py took 0.258 seconds
+[2024-05-22T08:51:28.180+0000] {processor.py:157} INFO - Started process (PID=34130) to work on /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:51:28.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/UpdateSymbol_v2.py for tasks to queue
+[2024-05-22T08:51:28.182+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:28.182+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:51:28.387+0000] {processor.py:839} INFO - DAG(s) dict_keys(['UpdateSymbol_v2']) retrieved from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:51:28.397+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:28.397+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:51:28.408+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:28.407+0000] {dag.py:3722} INFO - Setting next_dagrun for UpdateSymbol_v2 to 2024-05-21T10:00:00+00:00, run_after=2024-05-22T10:00:00+00:00
+[2024-05-22T08:51:28.416+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/UpdateSymbol_v2.py took 0.241 seconds
+[2024-05-22T08:51:58.699+0000] {processor.py:157} INFO - Started process (PID=34198) to work on /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:51:58.700+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/UpdateSymbol_v2.py for tasks to queue
+[2024-05-22T08:51:58.701+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:58.701+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:51:58.915+0000] {processor.py:839} INFO - DAG(s) dict_keys(['UpdateSymbol_v2']) retrieved from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:51:58.927+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:58.926+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:51:58.937+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:51:58.937+0000] {dag.py:3722} INFO - Setting next_dagrun for UpdateSymbol_v2 to 2024-05-21T10:00:00+00:00, run_after=2024-05-22T10:00:00+00:00
+[2024-05-22T08:51:58.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/UpdateSymbol_v2.py took 0.251 seconds
+[2024-05-22T08:52:29.212+0000] {processor.py:157} INFO - Started process (PID=34264) to work on /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:52:29.213+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/UpdateSymbol_v2.py for tasks to queue
+[2024-05-22T08:52:29.214+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:29.214+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:52:29.435+0000] {processor.py:839} INFO - DAG(s) dict_keys(['UpdateSymbol_v2']) retrieved from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:52:29.447+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:29.447+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:52:29.461+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:29.460+0000] {dag.py:3722} INFO - Setting next_dagrun for UpdateSymbol_v2 to 2024-05-21T10:00:00+00:00, run_after=2024-05-22T10:00:00+00:00
+[2024-05-22T08:52:29.473+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/UpdateSymbol_v2.py took 0.265 seconds
+[2024-05-22T08:52:59.613+0000] {processor.py:157} INFO - Started process (PID=34329) to work on /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:52:59.614+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/UpdateSymbol_v2.py for tasks to queue
+[2024-05-22T08:52:59.615+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:59.615+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:52:59.818+0000] {processor.py:839} INFO - DAG(s) dict_keys(['UpdateSymbol_v2']) retrieved from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:52:59.829+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:59.829+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:52:59.840+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:52:59.840+0000] {dag.py:3722} INFO - Setting next_dagrun for UpdateSymbol_v2 to 2024-05-21T10:00:00+00:00, run_after=2024-05-22T10:00:00+00:00
+[2024-05-22T08:52:59.849+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/UpdateSymbol_v2.py took 0.240 seconds
+[2024-05-22T08:53:30.060+0000] {processor.py:157} INFO - Started process (PID=34393) to work on /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:53:30.061+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/UpdateSymbol_v2.py for tasks to queue
+[2024-05-22T08:53:30.062+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:53:30.062+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:53:30.266+0000] {processor.py:839} INFO - DAG(s) dict_keys(['UpdateSymbol_v2']) retrieved from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:53:30.276+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:53:30.275+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:53:30.286+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:53:30.286+0000] {dag.py:3722} INFO - Setting next_dagrun for UpdateSymbol_v2 to 2024-05-21T10:00:00+00:00, run_after=2024-05-22T10:00:00+00:00
+[2024-05-22T08:53:30.294+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/UpdateSymbol_v2.py took 0.239 seconds
+[2024-05-22T08:54:00.409+0000] {processor.py:157} INFO - Started process (PID=34457) to work on /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:54:00.411+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/UpdateSymbol_v2.py for tasks to queue
+[2024-05-22T08:54:00.412+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:54:00.412+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:54:00.624+0000] {processor.py:839} INFO - DAG(s) dict_keys(['UpdateSymbol_v2']) retrieved from /opt/airflow/dags/UpdateSymbol_v2.py
+[2024-05-22T08:54:00.635+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:54:00.635+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-05-22T08:54:00.647+0000] {logging_mixin.py:154} INFO - [2024-05-22T08:54:00.647+0000] {dag.py:3722} INFO - Setting next_dagrun for UpdateSymbol_v2 to 2024-05-21T10:00:00+00:00, run_after=2024-05-22T10:00:00+00:00
+[2024-05-22T08:54:00.656+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/UpdateSymbol_v2.py took 0.252 seconds
