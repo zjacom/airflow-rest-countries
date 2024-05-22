@@ -1,11 +1,16 @@
 from airflow import DAG
 from airflow.decorators import task
 from airflow.providers.postgres.hooks.postgres import PostgresHook
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import logging
 import requests
 
+default_args = {
+    'owner': 'airflow',
+    'retries': 5,
+    'retry_delay': timedelta(minutes=5)
+}
 
 def get_Redshift_connection(autocommit=True):
     hook = PostgresHook(postgres_conn_id='redshift_dev_db')
