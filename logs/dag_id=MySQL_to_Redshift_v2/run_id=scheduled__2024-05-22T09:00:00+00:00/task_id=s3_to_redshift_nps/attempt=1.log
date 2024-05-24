@@ -1,0 +1,33 @@
+[2024-05-24T07:38:03.785+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: MySQL_to_Redshift_v2.s3_to_redshift_nps scheduled__2024-05-22T09:00:00+00:00 [queued]>
+[2024-05-24T07:38:03.790+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: MySQL_to_Redshift_v2.s3_to_redshift_nps scheduled__2024-05-22T09:00:00+00:00 [queued]>
+[2024-05-24T07:38:03.790+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2024-05-24T07:38:03.796+0000] {taskinstance.py:1382} INFO - Executing <Task(S3ToRedshiftOperator): s3_to_redshift_nps> on 2024-05-22 09:00:00+00:00
+[2024-05-24T07:38:03.799+0000] {standard_task_runner.py:57} INFO - Started process 214 to run task
+[2024-05-24T07:38:03.801+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'MySQL_to_Redshift_v2', 's3_to_redshift_nps', 'scheduled__2024-05-22T09:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/MySQL_to_Redshift_v2.py', '--cfg-path', '/tmp/tmpqkja1cln']
+[2024-05-24T07:38:03.801+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask s3_to_redshift_nps
+[2024-05-24T07:38:03.825+0000] {task_command.py:416} INFO - Running <TaskInstance: MySQL_to_Redshift_v2.s3_to_redshift_nps scheduled__2024-05-22T09:00:00+00:00 [running]> on host d579a67aea10
+[2024-05-24T07:38:03.862+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='MySQL_to_Redshift_v2' AIRFLOW_CTX_TASK_ID='s3_to_redshift_nps' AIRFLOW_CTX_EXECUTION_DATE='2024-05-22T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-22T09:00:00+00:00'
+[2024-05-24T07:38:03.867+0000] {base.py:73} INFO - Using connection ID 'aws_conn_id' for task execution.
+[2024-05-24T07:38:03.871+0000] {base.py:73} INFO - Using connection ID 'aws_conn_id' for task execution.
+[2024-05-24T07:38:03.872+0000] {connection_wrapper.py:378} INFO - AWS Connection (conn_id='aws_conn_id', conn_type='aws') credentials retrieved from login and password.
+[2024-05-24T07:38:03.877+0000] {s3_to_redshift.py:192} INFO - Executing COPY command...
+[2024-05-24T07:38:03.881+0000] {base.py:73} INFO - Using connection ID 'redshift_dev_db' for task execution.
+[2024-05-24T07:38:04.068+0000] {sql.py:418} INFO - Running statement: CREATE TABLE #nps (LIKE kyg8821.nps INCLUDING DEFAULTS);, parameters: None
+[2024-05-24T07:38:04.122+0000] {sql.py:418} INFO - Running statement: 
+                    COPY #nps 
+                    FROM 's3://grepp-data-engineering/kyg8821-nps'
+                    credentials
+                    'aws_access_key_id=AKIARFSTKIPDH3ZEJXJ5;aws_secret_access_key=***'
+                    
+                    csv;
+        , parameters: None
+[2024-05-24T07:38:04.368+0000] {sql.py:418} INFO - Running statement: BEGIN;, parameters: None
+[2024-05-24T07:38:04.401+0000] {sql.py:418} INFO - Running statement: DELETE FROM kyg8821.nps USING #nps WHERE nps.id = #nps.id;, parameters: None
+[2024-05-24T07:38:04.453+0000] {sql.py:427} INFO - Rows affected: 0
+[2024-05-24T07:38:04.455+0000] {sql.py:418} INFO - Running statement: INSERT INTO kyg8821.nps SELECT * FROM #nps;, parameters: None
+[2024-05-24T07:38:04.498+0000] {sql.py:427} INFO - Rows affected: 0
+[2024-05-24T07:38:04.500+0000] {sql.py:418} INFO - Running statement: COMMIT, parameters: None
+[2024-05-24T07:38:04.580+0000] {s3_to_redshift.py:197} INFO - COPY command complete...
+[2024-05-24T07:38:04.607+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=MySQL_to_Redshift_v2, task_id=s3_to_redshift_nps, execution_date=20240522T090000, start_date=20240524T073803, end_date=20240524T073804
+[2024-05-24T07:38:04.642+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-05-24T07:38:04.660+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

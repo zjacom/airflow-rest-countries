@@ -1,0 +1,25 @@
+[2024-05-23T08:26:19.576+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: UpdateSymbol_ROW.load manual__2024-05-23T08:26:15.156307+00:00 [queued]>
+[2024-05-23T08:26:19.580+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: UpdateSymbol_ROW.load manual__2024-05-23T08:26:15.156307+00:00 [queued]>
+[2024-05-23T08:26:19.581+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-05-23T08:26:19.587+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load> on 2024-05-23 08:26:15.156307+00:00
+[2024-05-23T08:26:19.590+0000] {standard_task_runner.py:57} INFO - Started process 3775 to run task
+[2024-05-23T08:26:19.596+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'UpdateSymbol_ROW', 'load', 'manual__2024-05-23T08:26:15.156307+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/UpdateSymbol_ROW.py', '--cfg-path', '/tmp/tmpqk5z2wv7']
+[2024-05-23T08:26:19.598+0000] {standard_task_runner.py:85} INFO - Job 60: Subtask load
+[2024-05-23T08:26:19.623+0000] {task_command.py:416} INFO - Running <TaskInstance: UpdateSymbol_ROW.load manual__2024-05-23T08:26:15.156307+00:00 [running]> on host af1541c0a54b
+[2024-05-23T08:26:19.663+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='UpdateSymbol_ROW' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2024-05-23T08:26:15.156307+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-23T08:26:15.156307+00:00'
+[2024-05-23T08:26:19.669+0000] {base.py:73} INFO - Using connection ID 'redshift_dev_db' for task execution.
+[2024-05-23T08:26:19.851+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 221, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/UpdateSymbol_ROW.py", line 44, in load
+    _create_table(cur, schema, table, True)
+TypeError: _create_table() takes 3 positional arguments but 4 were given
+[2024-05-23T08:26:19.864+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=UpdateSymbol_ROW, task_id=load, execution_date=20240523T082615, start_date=20240523T082619, end_date=20240523T082619
+[2024-05-23T08:26:19.873+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 60 for task load (_create_table() takes 3 positional arguments but 4 were given; 3775)
+[2024-05-23T08:26:19.898+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-05-23T08:26:19.911+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
